@@ -19,6 +19,6 @@ Then ran the create tables script in order to handle the foreign/primary keys<br
 ## Next step was to import the data into the tables
 Individually imported data into each of the tables in the right order to account for Primary/Foreign key relationships<br />
 
-##Final step was to query the tables
+## Final step was to query the tables
 Ran 8 queries pulling data on employees, managers, etc<br />
 Ran query on count of employees with same last names<br />
