@@ -14,7 +14,7 @@ Used http://www.quickdatabasediagrams.com to sketch table schema and relationshi
 
 ## Next step was to write the code to create tables in PGAdmin
 Used much of what I had in the quick diagram and converted for postgres syntax<br />
-Added primary (2 composity primary keys) and foreign keys<br />
+Added primary (2 composite primary keys) and foreign keys<br />
 Then ran the create tables script in order to handle the foreign/primary keys<br />
 
 ## Next step was to import the data into the tables
