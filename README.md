@@ -1,11 +1,11 @@
 # SQL Challenge Homework
 
-##Files included in this repository
+## Files included in this repository
 SQLEmployeeChallengeERD.png --> ERD image generated at http://www.quickdatabasediagrams.com<br />
 SQLEmployeeChallengeERDTableSchemaText.txt --> text you can paste to generate the ERD at http://www.quickdatabasediagrams.com<br />
-CreateEmployeeDatabaseTables.sql --> sql create table code<br />
-DropEmployeeDatabaseTables.sql --> sql to drop all tables in correct order<br />
-EmployeeDatabaseSelectQueries.sql --> sql to query Employee databae tables<br />
+CreateEmployeeDatabaseTables.sql --> sqlcode to create tables<br />
+DropEmployeeDatabaseTables.sql --> sql code to drop all tables in correct order<br />
+EmployeeDatabaseSelectQueries.sql --> sql code to query Employee databae tables<br />
 
 ## First step was technical database design
 Reviewed 6 csv files to understand data and how the csv files relate to each other<br />
