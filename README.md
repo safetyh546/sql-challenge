@@ -6,6 +6,7 @@ SQLEmployeeChallengeERDTableSchemaText.txt --> text you can paste to generate th
 CreateEmployeeDatabaseTables.sql --> sqlcode to create tables<br />
 DropEmployeeDatabaseTables.sql --> sql code to drop all tables in correct order<br />
 EmployeeDatabaseSelectQueries.sql --> sql code to query Employee databae tables<br />
+SQLChallengeBonus.ipynb --> Jupyter notebook for the bonus challenge
 
 ## First step was technical database design
 Reviewed 6 csv files to understand data and how the csv files relate to each other<br />
@@ -22,3 +23,8 @@ Individually imported data into each of the tables in the right order to account
 ## Final step was to query the tables
 Ran 8 queries pulling data on employees, managers, etc<br />
 Ran query on count of employees with same last names<br />
+
+## Bonus challenge
+used sqlaclhemy to pull data from Employee postgres database into a pandas dataframe<br />
+Created a histogram of all salaries<br />
+Created a bar chart of average salary by title<br />
