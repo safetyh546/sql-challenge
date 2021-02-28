@@ -4,7 +4,6 @@ select e.emp_no as "Employee Number"
 ,e.first_name
 ,e.sex
 ,s.salary
---select count(*)
 from employee e
 join salary s on e.emp_no = s.emp_no
 
@@ -32,7 +31,6 @@ select e.emp_no as "Employee Number"
 ,e.last_name
 ,e.first_name
 ,d.dept_name as "Department Name"
---select count(*)
 from employee as e
 join department_employee as de on e.emp_no = de.emp_no
 join department as d on de.dept_no = d.dept_no
@@ -42,7 +40,6 @@ select
 e.first_name 
 ,e.last_name
 ,e.sex
---select count(*)
 from employee as e
 where 
 e.first_Name = 'Hercules'
@@ -53,7 +50,6 @@ select e.emp_no as "Employee Number"
 ,e.last_name
 ,e.first_name
 ,d.dept_name as "Department Name"
---select count(*)
 from employee as e
 join department_employee as de on e.emp_no = de.emp_no
 join department as d on de.dept_no = d.dept_no
@@ -64,8 +60,16 @@ select e.emp_no as "Employee Number"
 ,e.last_name
 ,e.first_name
 ,d.dept_name as "Department Name"
---select count(*)
 from employee as e
 join department_employee as de on e.emp_no = de.emp_no
 join department as d on de.dept_no = d.dept_no
 where d.dept_name in( 'Sales','Development')
+order by e.last_name
+
+--In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+select last_name, count(*) as "Employee Count"
+from employee
+group by last_name
+order by count(*) desc
+
+
